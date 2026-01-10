@@ -1,0 +1,10 @@
+target/
+*.class
+*.jar
+*.war
+*.log
+.DS_Store
+.idea/
+*.iml
+.vscode/
+src/main/resources/application.properties
