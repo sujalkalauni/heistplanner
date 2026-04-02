@@ -1,4 +1,4 @@
-# HeistPlanner 🕵️
+# HeistPlanner 
 
 > A REST API strategy game — plan heists, recruit crew, and execute with probabilistic outcomes.
 
@@ -21,12 +21,12 @@ Make HTTP calls to plan a heist. Recruit a hacker, driver, safecracker. Complete
 
 | Target | Base Risk | Payout |
 |---|---|---|
-| Art Museum | 25% | $50,000 |
-| Jewelry Store | 35% | $120,000 |
-| Crypto Exchange | 50% | $750,000 |
-| City Bank | 55% | $500,000 |
-| Casino | 70% | $1,000,000 |
-| Federal Reserve | 90% | $5,000,000 |
+| Art Museum | 25% | Rs50,000 |
+| Jewelry Store | 35% | Rs120,000 |
+| Crypto Exchange | 50% | Rs750,000 |
+| City Bank | 55% | Rs500,000 |
+| Casino | 70% | Rs1,000,000 |
+| Federal Reserve | 90% | Rs5,000,000 |
 
 ---
 
@@ -97,7 +97,7 @@ Swagger UI: `http://localhost:8082/swagger-ui.html`
 | GET | `/api/heists/mine` | List your heists |
 | POST | `/api/heists/{id}/crew` | Recruit a crew member |
 | POST | `/api/heists/{id}/phases` | Complete a planning phase |
-| POST | `/api/heists/{id}/execute` | Execute the heist 🎲 |
+| POST | `/api/heists/{id}/execute` | Execute the heist  |
 | GET | `/api/heists/stats/me` | Your reputation + earnings |
 | GET | `/api/heists/stats/targets` | Global target difficulty stats |
 
